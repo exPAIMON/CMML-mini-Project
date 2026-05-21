@@ -11,8 +11,6 @@ The project includes systematically simulated single-cell transcriptomic dataset
 - `notebooks/`: Fully executed Jupyter Notebooks with cached outputs.
   - `01_Data_Simulation_and_Preprocessing.ipynb`: Establishes the copula probabilistic model via `scDesign3` and exports simulated Seurat Objects under different configurations.
   - `02_Downstream_Benchmarking.ipynb`: Evaluates and benchmarks `Seurat`, `SingleR`, and `scran` performance, outputting the metrics (DR, FPR, and Marker Recovery) and visual representations.
-- `results/`: Directory housing permanent figures, including downstream cell-type identification trends and benchmark heatmaps.
-
 ---
 
 ##  How to Review and Run
